@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin:auto;
+}
+
+.header {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    color: #FFFFFF;
+    background-image: linear-gradient(#471afc, #2910a5);
+    box-shadow: 0 0px 14px #04238d;
+}
+
+.formPadding {
+    padding: 20px;
+    margin: auto;
+}
+    
+.form {
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    background: #fff;
+    padding: 15px;     
+}
+
+input[type=text] {
+    -webkit-appearance: none; -moz-appearance: none;
+    margin: auto;
+    width: 25%; height: 40px;
+    line-height: 40px;font-size: 25px;    
+}
+
+input[type=radio] {
+ width: 25px; height: 25px;
+ -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
+ border: 1px solid #bbb;
+}
+
+input[type=checkbox] {
+ width: 25px; height: 25px;
+ -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
+ border: 1px solid #bbb;
+}
+
+button {
+    font-size: 17px;
+        display: block;
+        padding: 20px;
+        font-weight: bold;
+        height: 2.5em; width: 50%;
+        border: 1px solid #bbb;
+        -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+     }
+
+.input {
+    margin: auto;
+    width: 75%;
+}
+
+.video {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+ }
+
+ .output_video {
+    display: block;
+    width: 100%;
+ }
+
+#output_message {
+    text-align: center;
+}
+
+#output_console {
+    display: block;
+    width:80%;
+    margin: auto;
+    background: #333;
+    color:#fff;
+}
+
+#button_server {
+    background: #5eff41;
+}
+
+#button_start {
+    background: #1c02ff;
+}
+
+#button_stop {
+    background: #cc0808;
+}
